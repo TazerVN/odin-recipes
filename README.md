@@ -1,2 +1,2 @@
 # odin-recipes
-a small project to demonstrate my proficiency in HTML
+This is a small project from Odin Project to demonstrate my proficiency in HTML
