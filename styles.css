@@ -1,18 +1,31 @@
 body {
     font-family: 'Geneva', Helvetica, sans-serif;
     font-size: medium;
+    box-sizing: border-box;
 }
 
 h1{
-    background-color: blue;
+    background-color: #0000ff;
     color: white;
     text-align: center;
     font-weight: bold;
+    width: 1050px;
+    height: 50px;
+    padding: 50px;
+    margin: 50px;
+}
+h1.title {
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2{
-    background-color: aqua;
-    color: black;
+    background-color: #0033ff90;
+    color: white;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 h2 .tips{
@@ -20,5 +33,32 @@ h2 .tips{
 }
 
 .recipes{
-    background-color: #00ffff20;
+    background-color: #80808050;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    font-weight: 800;
+}
+
+li,
+img,
+h3,
+h3 ul,
+h4,
+p{
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+ol h3{
+    margin: 10px;
+}
+
+ul.recipes{
+    display: flex;
+    list-style: none;
+    margin: 50px;
 }
